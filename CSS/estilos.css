@@ -1,0 +1,388 @@
+body, html {
+    height: 100%;
+    background-color: #0c0b0b;
+}
+
+.feplat3731 ff-modernization-update{
+    position: absolute;
+    background-color: #0c0b0b;
+     height: 100%;
+}
+
+header{
+    height: 15%;
+} 
+
+#cabecera{
+    position: absolute;
+    box-sizing: border-box;
+    width: 98%;
+    height: 13%;
+    left: 1%;
+    top: 1%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 44px;
+    gap: 10px;
+    position: absolute;
+    width: 10%;
+    height: 55%;
+    left: 0%;
+    top: calc(50% - 48px/2 + 0.5px);
+    background-repeat: no-repeat;
+}     
+
+.logoOne{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 84%;
+    top: calc(50% - 60px/2 + 0.5px);
+    float: right;
+    Background: url("https://cdn1.gnarususercontent.com.br/6/408785/217bbdb0-d321-4e7b-be86-7b6472c85a60.png");
+    background-repeat: no-repeat;
+
+}
+        
+.linea1{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 12%;
+    border: 1px solid #C0C0C0;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 34px;
+    height: 70.5%;
+    
+}
+
+.section1{
+    position: absolute;
+    left: 0%;
+    top: 13.5%;
+    height: 72.5%;
+    width: 72%;
+
+}
+.h2-titulo{
+    position: absolute;
+    width: 99.5%;
+    height: 20%;
+    left: 0.5%;
+    top: 0%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #89a674;
+}
+.h2-titulo{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.div-text-area{
+    display: flexbox;
+    position: absolute;
+    top: 19%;
+    left: 1%;
+    width: 99%;
+    height: 60%;
+}
+
+.text-area {
+    position: absolute;
+    resize: none;
+    width: 727px;
+    height: 250px;
+    margin-left: 5%;
+    border: none;
+    color: #0A3871;
+    margin-top: 1px;
+    padding: 2px;
+    font-size: 2em;
+    background-color:#0c0b0b;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    position: absolute;
+    background: white;
+    background-image: url("../Imagenes/puertaPersonaGlobo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    resize: none;
+    width: 25%;
+    height: 69%;
+    left: 72%;
+    top: 12%;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    font-size: 2em;
+    margin-left: 0%;
+    margin-top: 2%;
+    padding-left: 2%;  
+    cursor: pointer;     
+}
+    .mensaje:focus {
+        outline: none;
+    }    
+
+.botones{
+    position: absolute;
+    display: flex;
+    top: 84%;
+    left: 6.5%;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    font-weight: bold;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 250px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 250px;
+}
+
+.div-btn-copiar{
+    position: absolute;
+    width: 27%;
+    height: 11%;
+    top: 74%;
+    left: 72%;
+}
+
+.btn-copiar {
+    position: absolute;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 60px;
+    margin-top: 3px;
+    width: 250px;
+    text-align: center;
+    
+}
+
+.linea2{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    left: 0px;
+    top: 84.5%;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer{
+    display: inline;
+    position: absolute;
+    width: 100%;
+    height: 14%;
+    left: 0%;
+    top: 86.1%;
+}
+
+.propietario{
+    display: inline;
+    position: absolute;
+    width: 71.5%;
+    height: 56%;
+    top: 4%;
+    left: 0.5%;
+}
+
+.h4-propietario{
+    display: inline;
+    position: absolute;
+    width: 95%;
+    height: 55%;
+    left: 5%;
+    top: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    color: #de8b36;
+}
+         
+.social-media{
+    display: inline;
+    position: absolute;
+    width: 25%;
+    height: 95%;
+    left: 72%;
+    top: 4%;
+    right: 20%;
+    
+}
+
+.div-logolikedin{
+    display: inline;
+    position: absolute;
+    width: 20%;
+    height: 93%;
+    left: 20%;
+    top: 6%;
+    
+}
+    
+.a-logolikedin{
+    position: absolute;
+    width: 60%;
+    height: 94%;
+    left: 10%;
+    top: 6%;
+    display: inline;
+    transition: 400ms;
+    
+}   
+
+.a-logolikedin:hover{
+    opacity: 0.3;
+}
+.logolikedin{
+    position: absolute;
+    width: 61%;
+    height: 37%;
+    left: 10%;
+    top: 6%;
+    border-radius: 59px;
+    background: url(../Botones/logolinkedin.jpg);
+    background-repeat: no-repeat;
+}
+
+/*.logolikedin:hover{
+    transition: ;
+}*/
+#div-logoGithub{
+    position: absolute;
+    width: 20%;
+    height: 93%;
+    left: 43%;
+    top: 6%;
+    display: inline;
+}
+
+.a-logoGithub{
+    position: absolute;
+    width: 60%;
+    height: 94%;
+    left: 3%;
+    top: 6%;
+    display: inline;
+    transition: 400ms;
+} 
+.a-logoGithub:hover{
+    opacity: 0.3;
+}
+.logoGithub{
+    position: absolute;
+    width: 64%;
+    height: 40%;
+    left: 11%;
+    top: 6%;
+    border-radius: 59px;
+    background: url(../Botones/logoGithub.jpg);
+    background-repeat: no-repeat;
+}                   
+     
+
+.div-logoFacebook{
+    position: absolute;
+    width: 25%;
+    height: 93%;
+    left: 50%;
+    top: 6%;
+    display: inline;
+}
+
+.a-logoFacebook{
+    position: absolute;
+    width: 89%;
+    height: 93%;
+    left: 3%;
+    top: 6%;
+    display: inline;
+    transition: 400ms;
+}
+
+.a-logoFacebook:hover{
+    opacity: 0.3;
+}
+.logoFacebook{
+    position: absolute;
+    display: inline;
+    width: 35%;
+    height: 35%;
+    left: 65%;
+    top: 6%;
+    border-radius: 59px;
+    background: url(../Botones/logoFacebook.jpg);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:480px){
+    h2{
+        text-align: center;
+    }
+    main{
+        position: static;
+    }*/
+    #cabecera, .linea1, .text-Area, .botones, .mensaje, .btn-copiar, .linea2, #footer, .propietario, .h4-propietario, #social-media {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}   
+              
+                   
+                
