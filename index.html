@@ -13,65 +13,88 @@
     <title>Encriptador/Desencriptador</title>
 </head>
 <body class="feplat3731 ff-modernization-update">
-    <header>
-        <div id="cabecera">
-            <img class ="logo" src="Imagenes/Logo.png" alt="logo de la pagina">
-            <img class="logoOne" src="Imagenes/logo ONE.png" alt="">
-        </div>
-    </header>
-    
-    <hr class="linea1">
-    
-    <main>
-        <section class="section1">
-            <h2 class="h2-titulo">Bienvenidos a mi primer encriptador/desencriptador de textos debe "Tocar la puerta" para seguir adelante</h2>
-
-            <div class="div-text-area">
-                <textarea class="text-area"  cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
-            </div>
-            
-            <div class="botones">
-                <button      class="btn-encriptar" onclick="btnEncriptar()">Encriptar
-                </button>
-                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar
-                </button>
-            </div>
-        </section>
-
-        <section>
-             <textarea class="mensaje" onclick="cambiarImg()" title="Toque la puerta" cols="20" rows="10"></textarea>
-                           
-            <div class="div-btn-copiar">
-                <button class="btn-copiar" onclick="copiar()">Copiar</button>
-            </div>      
-        </section>
-    </main>     
-
-    <hr class="linea2">
-       
-        <footer>
-            <div class="propietario">
-                <h4 class="h4-propietario">Copyright © 2023 Lowolff79, Inc.</h4>
-            </div>
-            <div class="social-media">
-                <div class="div-logolikedin">
-                    <a class="a-logolikedin" href="https://www.linkedin.com/company/alura-latam/" alt="">  
-                        <img class="logolikedin" src="Botones/logolinkedin.jpg" alt="">
-                    </a>
+    <div class="general">
+        <header>
+            <section id="cabecera">
+                <div class ="divlogos">
+                    <div class="divlogoalura">
+                        <img class ="logoalura" src="/assets/Imagenes/Logo.png" alt="logo de la pagina">
+                    </div>
+                    <div class="divlogoOne">
+                        <img class="logoOne" src="/assets/Imagenes/logo ONE.png" alt="logo de la pagina"> 
+                    </div>
                 </div>
-                <div id="div-logoGithub">    
-                    <a class="a-logoGithub" href="https://github.com/alura-cursos" alt="">
-                        <img class="logoGithub" src="Botones/logoGithub.jpg" alt="">
-                    </a>
-                </div>   
-                <div class="div-logoFacebook">
-                    <a class="a-logoFacebook" href="https://www.facebook.com/aluracursoslatam" alt="">
-                        <img class="logoFacebook" src="Botones/logoFacebook.jpg" alt="">
-                    </a>
+            </section>
+        </header>
+        <hr class="linea1">
+        <main class="principal">
+            <section class="section1">
+                <div class="div-h2-titulo">
+                    <h2 class="h2-titulo">Bienvenidos a mi primer encriptador/desencriptador de textos debe "Tocar la puerta" para seguir adelante</h2>
+                </div>
+                
+            </section>
+            <section class="section2">
+                <div class="divsection2">
+                    <div class="div-text-area">
+                        <textarea class="text-area"  cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                    </div>
+                    <div class="botones">
+                        <div class="divBotonEncript">
+                            <button      class="btn-encriptar" onclick="btnEncriptar()">Encriptar
+                            </button>
+                        </div>
+                        <div class="divBotonDesencript">
+                            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar
+                            </button>
+                        </div>
+                        
+                    </div>
+           
+                </div>            
+                
+            </section>
+            <section class="section3">
+                <div  class="divmensaje">
+                    <textarea class="mensaje" onclick="cambiarImg()" title="Toque la puerta" cols="20" rows="10"></textarea>
+                </div>  
+                <div class="div-btn-copiar">
+                    <button class="btn-copiar" onclick="copiar()">Copiar</button>
                 </div> 
-            </>
-        </footer>
     
-    <script src="JS/main.js"></script>
+            </section>
+        </main>     
+    
+        <hr class="linea2">
+           
+            <footer>
+                <div class="divfooter">
+                    <div class="propietario">
+                        <h4 class="h4-propietario">Copyright © 2023 Lowolff79, Inc.</h4>
+                    </div>
+                    <div class="social-media">
+                        <div class="div-logolikedin">
+                            <a class="a-logolikedin" href="https://www.linkedin.com/company/alura-latam/" alt="">  
+                                <img class="logolikedin" src="/Botones/logolinkedin.jpg" src="/Botones/logolinkedin.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="div-logoGithub">    
+                            <a class="a-logoGithub" href="https://github.com/alura-cursos" alt="">
+                                <img class="logoGithub" src="/Botones/logoGithub.jpg" src="/Botones/logoGithub.jpg" alt="">
+                            </a>
+                        </div>   
+                        <div class="div-logoFacebook">
+                            <a class="a-logoFacebook" href="https://www.facebook.com/aluracursoslatam" alt="">
+                                <img class="logoFacebook" src="/Botones/logoFacebook.jpg" src="/Botones/logoFacebook.jpg" alt="">
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+                
+            </footer>
+        
+    <script src="JS/main.js"></script>    
+    </div>
+    
 </body>
 </html>
